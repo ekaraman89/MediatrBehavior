@@ -2,7 +2,7 @@
 {
 	public class DbContext
 	{
-		private List<UserEntity> _users;
+		private readonly List<UserEntity> _users;
 
 		public DbContext()
 		{
